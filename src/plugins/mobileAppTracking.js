@@ -76,15 +76,6 @@ angular.module('ngCordova.plugins.mobileAppTracking', [])
         return d.promise;
       },
 
-      startMAT       : function () {
-
-      },
-
-      // Shortcut to start Measuring Session
-      startMATWithGID: function () {
-
-      },
-
       /**
        * Android Tracking using Google Advertising ID
        * Require : Mobile App Tracking GAID Wrapper
